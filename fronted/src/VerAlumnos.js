@@ -70,7 +70,7 @@ const VerAlumnos = () => {
             <table>
                 <thead>
                 <tr>
-                    <th>Carnet</th>
+                    <th>Carné</th>
                     <th>Estudiante</th>
                     <th>Correo Electrónico</th>
                     <th>Acciones</th>
