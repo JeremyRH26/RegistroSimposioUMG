@@ -11,7 +11,7 @@ public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-                .allowedOrigins("https:registro-simposio-umg.vercel.app/") // Permite solicitudes desde localhost:3000
+                .allowedOrigins("https:registro-simposio-umg.vercel.app/", "http:localhost:3000") // Permite solicitudes desde localhost:3000 y URL
                 .allowedMethods("GET", "POST", "PUT", "DELETE")
                 .allowedHeaders("*")
                 .allowCredentials(true);
